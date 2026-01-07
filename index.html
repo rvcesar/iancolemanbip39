@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html>
     <head lang="en">
         <meta charset="utf-8" />
-        <title>Bitcoin Seed Phrase Generator</title>
+        <title>BIP39 - Mnemonic Code</title>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/app.css">
         <meta content="Mnemonic code for generating deterministic keys" name="description"/>
@@ -15,7 +14,8 @@
     <body>
         <div class="container">
 
-            <h1 class="text-center">Seed Phrase Generator</h1>
+            <h1 class="text-center">Mnemonic Code Converter</h1>
+            <p class="version">v0.5.6</p>
             <hr>
             <div class="row">
                 <div class="col-md-12">
@@ -26,7 +26,7 @@
                             <div class="col-sm-10">
                                 <div class="form-inline">
                                     <div class="input-group-inline">
-                                         <span>Generate a random seed phrase</span>:
+                                         <span>Generate a random mnemonic</span>:
                                         <button class="btn generate" ><b>GENERATE</b></button>
                                         <select id="strength" class="strength form-control">
                                             <option value="3">3</option>
@@ -949,6 +949,5 @@
         <script src="js/jsbip39.js"></script>
         <script src="js/entropy.js"></script>
         <script src="js/index.js"></script>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"3c13961b8ec24451adb00fe7a260823d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-</body>
+    </body>
 </html>
